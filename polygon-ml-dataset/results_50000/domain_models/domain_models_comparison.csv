@@ -1,0 +1,11 @@
+Model,Domain,Test Failures,Failure Recall,Failure Precision,Accuracy,ROC-AUC,FN,FP
+Logistic Regression,DEX (Uniswap),266,0.8534,0.4374,0.8345,0.8344,39,292
+Random Forest,DEX (Uniswap),266,0.8346,0.6607,0.921,0.9275,44,114
+Logistic Regression,Marketplace (Seaport),150,0.5533,0.2986,0.869,0.797,67,195
+Random Forest,Marketplace (Seaport),150,0.1933,0.4143,0.919,0.735,121,41
+Logistic Regression,Lending (Aave),14,0.2143,0.0035,0.5690,0.3170,11,851
+Random Forest,Lending (Aave),14,0.4286,0.7500,0.9950,0.7708,8,2
+Logistic Regression,Token (USDT),9,0.8889,0.0284,0.8610,0.8839,1,274
+Random Forest,Token (USDT),9,0.7778,1.0000,0.9990,0.8873,2,0
+Logistic Regression,Fallback (All Domains),448,0.8259,0.1384,0.7605,0.7947,78,2304
+Random Forest,Fallback (All Domains),448,0.4487,0.5507,0.9587,0.8738,247,164

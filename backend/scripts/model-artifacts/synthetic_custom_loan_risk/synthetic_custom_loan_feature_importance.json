@@ -1,0 +1,38 @@
+[
+  {
+    "feature": "collateral_ratio",
+    "importance": 0.26647506526612
+  },
+  {
+    "feature": "late_payment_count",
+    "importance": 0.1102966860419927
+  },
+  {
+    "feature": "liquidity_buffer",
+    "importance": 0.008033683045509126
+  },
+  {
+    "feature": "repayment_history_score",
+    "importance": 0.007647858206758833
+  },
+  {
+    "feature": "term_days",
+    "importance": 0.0017408516580238458
+  },
+  {
+    "feature": "previous_repayments",
+    "importance": 0.0013548203326878246
+  },
+  {
+    "feature": "days_to_deadline",
+    "importance": 0.00017000081347175395
+  },
+  {
+    "feature": "collateral_kg",
+    "importance": 9.758320010425032e-06
+  },
+  {
+    "feature": "amount_usdc",
+    "importance": 4.3505288270573657e-07
+  }
+]

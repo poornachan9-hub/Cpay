@@ -1,0 +1,41 @@
+{
+  "name": "cryptopay-backend",
+  "version": "1.0.0",
+  "description": "CryptoPay backend — wallet auth, KYC verification, IPFS + on-chain proof",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "migrate": "node -e \"require('dotenv').config(); const {Pool}=require('pg'); const p=new Pool({connectionString:process.env.DATABASE_URL}); (async () => { try { await p.query(require('fs').readFileSync('migrations/001_init.sql','utf8')); console.log('Migration successful!'); } catch (err) { console.error('Migration failed:', err); } finally { await p.end(); } })()\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.101.1",
+    "adm-zip": "^0.5.16",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.13.1",
+    "twilio": "^5.13.1",
+    "uuid": "^11.1.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.13.0",
+    "@types/node-fetch": "^2.6.12",
+    "@types/pg": "^8.11.10",
+    "@types/uuid": "^10.0.0",
+    "@types/xml2js": "^0.4.14",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  }
+}

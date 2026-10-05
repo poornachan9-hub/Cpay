@@ -1,0 +1,6 @@
+class,precision,recall,f1-score,support,value
+Failed(0),0.7254,0.9567,0.8251,254.0,
+Success(1),0.9934,0.9473,0.9698,1746.0,
+accuracy,,,,,0.9485
+macro avg,0.8594,0.952,0.8975,2000.0,
+weighted avg,0.9594,0.9485,0.9514,2000.0,

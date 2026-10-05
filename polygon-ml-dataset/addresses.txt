@@ -1,0 +1,21 @@
+# Public Polygon PoS addresses used as transaction sources for ML dataset collection.
+# These are verified, named protocol contracts on PolygonScan (chain ID 137).
+# Sources: https://polygonscan.com (verified contract labels)
+#
+# DO NOT add private keys, seed phrases, or API keys to this file.
+# Blank lines and lines beginning with # are ignored by the collector.
+
+# Uniswap V3: SwapRouter -- high volume, naturally occurring failed txs (slippage/deadline)
+0xe592427a0aece92de3edee1f18e0157c05861564
+
+# Aave V3: Pool -- lending protocol, variety of success/failure outcomes
+0x794a61358D6845594F94dc1DB02A252b5b4814aD
+
+# Uniswap V3: Factory -- pool creation transactions
+0x1F98431c8aD98523631AE4a59f267346ea31F984
+
+# USDT (Tether) on Polygon -- stablecoin contract, high transaction volume
+0xc2132d05d31c914a87c6611c10748aeb04b58e8f
+
+# USDC (Circle Native) on Polygon -- high volume stablecoin transfers
+0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359

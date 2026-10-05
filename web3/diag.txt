@@ -1,0 +1,18 @@
+=== DIAGNOSTIC START ===
+Network name: polygon
+Chain ID: 137
+RPC URL: https://polygon-rpc.com
+Getting signers...
+=== ERROR ===
+Message: HH110: Invalid JSON-RPC response received: {"error":"message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"}
+Code: undefined
+Stack: HardhatError: HH110: Invalid JSON-RPC response received: {"error":"message: API key disabled, reason: tenant disabled, json-rpc code: -32051, rest code: 403"}
+    at parseJsonResponse (C:\Users\POORNA CHANDRA D N\Downloads\coincrop-main\coincrop-main\web3\node_modules\hardhat\src\internal\util\jsonrpc.ts:47:11)
+    at HttpProvider._fetchJsonRpcResponse (C:\Users\POORNA CHANDRA D N\Downloads\coincrop-main\coincrop-main\web3\node_modules\hardhat\src\internal\core\providers\http.ts:246:31)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at HttpProvider.request (C:\Users\POORNA CHANDRA D N\Downloads\coincrop-main\coincrop-main\web3\node_modules\hardhat\src\internal\core\providers\http.ts:104:29)
+    at ChainIdValidatorProvider._getChainIdFromEthNetVersion (C:\Users\POORNA CHANDRA D N\Downloads\coincrop-main\coincrop-main\web3\node_modules\hardhat\src\internal\core\providers\chainId.ts:33:17)
+    at ChainIdValidatorProvider._getChainId (C:\Users\POORNA CHANDRA D N\Downloads\coincrop-main\coincrop-main\web3\node_modules\hardhat\src\internal\core\providers\chainId.ts:17:25)
+    at ChainIdValidatorProvider.request (C:\Users\POORNA CHANDRA D N\Downloads\coincrop-main\coincrop-main\web3\node_modules\hardhat\src\internal\core\providers\chainId.ts:56:29)
+    at getSigners (C:\Users\POORNA CHANDRA D N\Downloads\coincrop-main\coincrop-main\web3\node_modules\@nomicfoundation\hardhat-ethers\src\internal\helpers.ts:46:16)
+    at main (C:\Users\POORNA CHANDRA D N\Downloads\coincrop-main\coincrop-main\web3\scripts\diagnose.js:11:22)

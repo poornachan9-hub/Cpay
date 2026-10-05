@@ -1,0 +1,12 @@
+{
+  "network": "polygon",
+  "chainId": 137,
+  "deployer": "0x75c4883bDb6e6A5D2c10D86e8E00d1a89aF69b0E",
+  "owner": "0x75c4883bDb6e6A5D2c10D86e8E00d1a89aF69b0E",
+  "timestamp": "2026-10-02T19:00:45.580Z",
+  "contracts": {
+    "CryptoPaymentGateway": "0x42223B067b3060715a4c512daa0C1d66A0295279",
+    "USDT": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "USDC": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+  }
+}

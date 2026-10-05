@@ -1,0 +1,28 @@
+{
+  "model_name": "logistic_regression",
+  "model_version": "synthetic-custom-loan-v2",
+  "decision_threshold": 0.5,
+  "accuracy": 0.566,
+  "precision": 0.5,
+  "recall": 0.5990783410138248,
+  "f1": 0.5450733752620545,
+  "roc_auc": 0.597205712331667,
+  "balanced_accuracy": 0.5698571917083258,
+  "confusion_matrix": [
+    [
+      306,
+      260
+    ],
+    [
+      174,
+      260
+    ]
+  ],
+  "total_rows": 5000,
+  "positive_rate": 0.4342,
+  "training_vs_test": {
+    "train_rows": 4000,
+    "test_rows": 1000
+  },
+  "synthetic_disclaimer": "Model trained and evaluated on synthetically generated loan scenarios. Metrics are for demonstration and benchmarking only and do not represent real-world borrower performance."
+}

@@ -1,0 +1,11 @@
+[
+  "amount_usdc",
+  "collateral_kg",
+  "collateral_ratio",
+  "term_days",
+  "repayment_history_score",
+  "days_to_deadline",
+  "late_payment_count",
+  "previous_repayments",
+  "liquidity_buffer"
+]

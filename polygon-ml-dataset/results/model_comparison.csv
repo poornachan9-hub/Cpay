@@ -1,0 +1,5 @@
+Split,Model,Accuracy,Precision,Recall(cls1),F1(cls1),Recall(cls0/fail),ROC-AUC
+Chronological,Logistic Regression,0.995,1.0,0.9949,0.9974,1.0,0.9949
+Chronological,Random Forest,0.995,1.0,0.9949,0.9974,1.0,1.0000
+Stratified,Logistic Regression,0.95,0.994,0.9486,0.9708,0.96,0.9687
+Stratified,Random Forest,0.93,0.9548,0.9657,0.9602,0.68,0.9680

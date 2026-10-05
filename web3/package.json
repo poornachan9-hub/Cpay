@@ -1,0 +1,31 @@
+{
+  "name": "payment-gateway-dapp",
+  "version": "1.0.0",
+  "description": "Decentralized Payment Gateway DApp",
+  "scripts": {
+    "node": "ganache --server.port 8545 --chain.chainId 1337 --wallet.mnemonic \"test test test test test test test test test test test junk\" --wallet.totalAccounts 20 --wallet.defaultBalance 10000 --database.dbPath ./data/ganache",
+    "compile": "npx hardhat compile",
+    "deploy:localhost": "npx hardhat run scripts/deploy-mock-tokens.js --network localhost && npx hardhat run scripts/deploy-payment-gateway.js --network localhost",
+    "deploy:polygon": "npx hardhat run scripts/deploy-polygon.js --network polygon",
+    "grant:reviewer:polygon": "npx hardhat run scripts/grant-reviewer-polygon.js --network polygon",
+    "clear": "rm -rf node_modules package-lock.json cache deployment-localhost.json deployed-tokens-localhost.json artifacts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "ganache": "^7.9.2",
+    "dotenv": "^16.4.5"
+  },
+  "keywords": [
+    "blockchain",
+    "insurance",
+    "defi",
+    "hardhat",
+    "solidity"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

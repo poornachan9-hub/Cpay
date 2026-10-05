@@ -1,0 +1,19 @@
+[
+  "total_borrowed",
+  "borrow_events",
+  "avg_borrow_amount",
+  "max_borrow_amount",
+  "total_repaid",
+  "repay_events",
+  "avg_repay_amount",
+  "max_repay_amount",
+  "repayment_ratio",
+  "total_supplied",
+  "supply_events",
+  "total_withdrawn",
+  "withdraw_events",
+  "liquidation_events",
+  "liquidation_amount_total",
+  "net_borrowed",
+  "wallet_activity_count"
+]

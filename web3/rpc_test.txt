@@ -1,0 +1,9 @@
+[ERROR] https://rpc-mainnet.matic.network => getaddrinfo ENOTFOUND rpc-mainnet.matic.network
+[ERROR] https://poly-rpc.gateway.pokt.network => getaddrinfo ENOTFOUND poly-rpc.gateway.pokt.network
+[ERROR] https://polygon.llamarpc.com => getaddrinfo ENOTFOUND polygon.llamarpc.com
+[403] https://rpc-mainnet.maticvigil.com => Our RPC has been shut down - thank you for 4 years of support!
+[429] https://endpoints.omniatech.io/v1/matic/mainnet/public => {     "error": {     "code" : 429,     "message":"Too many requests. Your app has exceeded its rate 
+[200] https://polygon-bor-rpc.publicnode.com => {"jsonrpc":"2.0","result":"0x5129363","id":1} 
+[200] https://1rpc.io/matic => {"jsonrpc":"2.0","result":"0x5129363","id":1}
+[200] https://rpc.ankr.com/polygon => {"jsonrpc": "2.0", "error": {"code": -32000, "message": "Unauthorized: You must authenticate your re
+Done.

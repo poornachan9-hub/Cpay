@@ -1,0 +1,34 @@
+Polygon Transaction ML Experiment -- Summary
+============================================================
+Dataset         : C:\project folder\W_T_F_1-main\polygon-ml-dataset\data\polygon_transactions_10000.csv
+Total rows      : 10000
+Features used   : ['value_native', 'gas_limit', 'gas_used', 'gas_price_gwei', 'nonce', 'type']
+Target          : success
+
+Primary split   : Chronological 80/20 (by block_number)
+  Train: 8000  Test: 2000  Failed in test: 266
+
+Class imbalance : 87.3% success / 12.7% failure (8729 vs 1271)
+class_weight    : balanced (data NOT modified)
+'type' feature  : constant (all 0) -- zero predictive variance
+
+== Chronological split results ==
+  LR  Accuracy=0.9470  Prec=0.9880  Rec=0.9504  F1=0.9688  RecallFail=0.9248
+  RF  Accuracy=0.9450  Prec=0.9614  Rec=0.9758  F1=0.9685  RecallFail=0.7444
+
+== Stratified split results (supplementary, for class-0 recall measurement) ==
+  LR  Accuracy=0.9485  Prec=0.9934  Rec=0.9473  F1=0.9698  RecallFail=0.9567
+  RF  Accuracy=0.9640  Prec=0.9941  Rec=0.9645  F1=0.9791  RecallFail=0.9606
+
+== Feature Importance (RF, Stratified split) ==
+  nonce               : 0.4716
+  gas_limit           : 0.2991
+  gas_used            : 0.1397
+  gas_price_gwei      : 0.0866
+  value_native        : 0.0031
+  type                : 0.0000
+
+== 10k Scaling ==
+Pipeline is functional. No code changes required before scaling.
+Command (DO NOT RUN YET):
+  .venv\Scripts\python.exe get_transactions.py --collect --addresses-file addresses.txt --limit 10000

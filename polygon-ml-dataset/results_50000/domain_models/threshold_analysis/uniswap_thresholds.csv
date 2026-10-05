@@ -1,0 +1,11 @@
+Domain,Model,Threshold,Actual Failures,Failure Recall,Failure Precision,Accuracy,False Alarms (FP),Missed Fail (FN),Total Warnings,Caught Fail (TP)
+uniswap,Random Forest,0.50,266,0.8346,0.6607,0.9210,114,44,336,222
+uniswap,Random Forest,0.60,266,0.7707,0.6788,0.9210,97,61,302,205
+uniswap,Random Forest,0.70,266,0.7030,0.7192,0.9240,73,79,260,187
+uniswap,Random Forest,0.80,266,0.5602,0.7340,0.9145,54,117,203,149
+uniswap,Random Forest,0.90,266,0.3609,0.7442,0.8985,33,170,129,96
+uniswap,Logistic Regression,0.50,266,0.8534,0.4374,0.8345,292,39,519,227
+uniswap,Logistic Regression,0.60,266,0.1090,0.3816,0.8580,47,237,76,29
+uniswap,Logistic Regression,0.70,266,0.1090,0.3816,0.8580,47,237,76,29
+uniswap,Logistic Regression,0.80,266,0.1090,0.3867,0.8585,46,237,75,29
+uniswap,Logistic Regression,0.90,266,0.0038,0.0909,0.8625,10,265,11,1

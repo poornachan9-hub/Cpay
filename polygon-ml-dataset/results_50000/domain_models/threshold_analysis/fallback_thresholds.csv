@@ -1,0 +1,11 @@
+Domain,Model,Threshold,Actual Failures,Failure Recall,Failure Precision,Accuracy,False Alarms (FP),Missed Fail (FN),Total Warnings,Caught Fail (TP)
+fallback,Random Forest,0.50,448,0.4487,0.5507,0.9587,164,247,365,201
+fallback,Random Forest,0.60,448,0.3996,0.5947,0.9607,122,269,301,179
+fallback,Random Forest,0.70,448,0.3348,0.6148,0.9606,94,298,244,150
+fallback,Random Forest,0.80,448,0.2545,0.6590,0.9605,59,334,173,114
+fallback,Random Forest,0.90,448,0.1629,0.7157,0.9594,29,375,102,73
+fallback,Logistic Regression,0.50,448,0.8259,0.1384,0.7605,2304,78,2674,370
+fallback,Logistic Regression,0.60,448,0.1585,0.3532,0.9490,130,377,201,71
+fallback,Logistic Regression,0.70,448,0.0938,0.3652,0.9518,73,406,115,42
+fallback,Logistic Regression,0.80,448,0.0938,0.4242,0.9534,57,406,99,42
+fallback,Logistic Regression,0.90,448,0.0938,0.4286,0.9535,56,406,98,42

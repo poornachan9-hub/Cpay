@@ -1,0 +1,26 @@
+[
+  {
+    "feature": "latest_payment_status",
+    "importance": 0.6294792294502258
+  },
+  {
+    "feature": "average_prior_payment_status",
+    "importance": 0.14635160565376282
+  },
+  {
+    "feature": "average_bill_amount",
+    "importance": 0.06306559592485428
+  },
+  {
+    "feature": "average_payment_amount",
+    "importance": 0.05995365232229233
+  },
+  {
+    "feature": "credit_limit",
+    "importance": 0.05866105481982231
+  },
+  {
+    "feature": "age",
+    "importance": 0.04248889908194542
+  }
+]

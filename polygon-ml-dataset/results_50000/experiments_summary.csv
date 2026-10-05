@@ -1,0 +1,21 @@
+Experiment,Domain,Model,Accuracy,Prec(Succ),Rec(Succ),Rec(Fail),Prec(Fail),F1(Macro),ROC-AUC,TP(Succ),FP(Succ),TN(Succ),FN(Succ),CaughtFail(TP0),MissedFail(FN0)
+Exp 1 (Naive Global),ALL,Logistic Regression,0.4058,0.9965,0.4064,0.0000,0.0000,0.2887,0.2521,4035,14,0,5894,0,14
+Exp 1 (Naive Global),ALL,Random Forest,0.9993,0.9996,0.9997,0.7143,0.7692,0.8702,0.9263,9926,4,10,3,10,4
+Exp 2 (Primary Overall),ALL,Logistic Regression,0.7831,0.9794,0.7895,0.6473,0.1267,0.5431,0.7812,7497,158,290,1999,290,158
+Exp 2 (Primary Overall),ALL,Random Forest,0.9657,0.9721,0.9926,0.3951,0.7166,0.7458,0.9190,9426,271,177,70,177,271
+Exp 2 (Per Domain),uniswap,Logistic Regression,0.9340,0.9890,0.9343,0.9323,0.6851,0.8753,0.9355,1620,18,248,114,248,18
+Exp 2 (Per Domain),uniswap,Random Forest,0.9160,0.9404,0.9642,0.6015,0.7207,0.8040,0.9347,1672,106,160,62,160,106
+Exp 2 (Per Domain),aave,Logistic Regression,0.9590,0.9876,0.9706,0.0000,0.0000,0.4895,0.6387,1918,24,0,58,0,24
+Exp 2 (Per Domain),aave,Random Forest,0.9890,0.9890,1.0000,0.0833,1.0000,0.5742,0.9364,1976,22,2,0,2,22
+Exp 2 (Per Domain),marketplace,Logistic Regression,0.9385,0.9444,0.9919,0.2800,0.7368,0.6867,0.7415,1835,108,42,15,42,108
+Exp 2 (Per Domain),marketplace,Random Forest,0.9260,0.9289,0.9962,0.0600,0.5625,0.5349,0.7086,1843,141,9,7,9,141
+Exp 2 (Per Domain),usdt,Logistic Regression,0.7494,0.9946,0.7524,0.0000,0.0000,0.4284,0.5745,1483,8,0,488,0,8
+Exp 2 (Per Domain),usdt,Random Forest,0.9985,0.9990,0.9995,0.7500,0.8571,0.8996,0.9993,1970,2,6,1,6,2
+Exp 2 (Per Domain),usdc,Logistic Regression,0.3262,1.0000,0.3262,0.0000,0.0000,0.2460,N/A,641,0,0,1324,0,0
+Exp 2 (Per Domain),usdc,Random Forest,1.0000,1.0000,1.0000,0.0000,0.0000,1.0000,N/A,1965,0,0,0,0,0
+Exp 3 (Cross-Domain),Marketplace,Logistic Regression,0.9544,0.9694,0.9838,0.1501,0.2536,0.5826,0.7190,9491,300,53,156,53,300
+Exp 3 (Cross-Domain),Marketplace,Random Forest,0.9616,0.9649,0.9965,0.0085,0.0811,0.4979,0.4898,9613,350,3,34,3,350
+Exp 4A (With Nonce),ALL,Logistic Regression,0.7831,0.9794,0.7895,0.6473,0.1267,0.5431,0.7812,7497,158,290,1999,290,158
+Exp 4A (With Nonce),ALL,Random Forest,0.9657,0.9721,0.9926,0.3951,0.7166,0.7458,0.9190,9426,271,177,70,177,271
+Exp 4B (No Nonce),ALL,Logistic Regression,0.7605,0.9893,0.7574,0.8259,0.1384,0.5475,0.7947,7192,78,370,2304,370,78
+Exp 4B (No Nonce),ALL,Random Forest,0.9586,0.9749,0.9819,0.4643,0.5474,0.7404,0.8751,9324,240,208,172,208,240

@@ -1,0 +1,23 @@
+{
+  "model_version": "uci-credit-default-xgboost-v1",
+  "dataset": "UCI Default of Credit Card Clients (DOI: 10.24432/C55S3H)",
+  "target": "default payment next month",
+  "accuracy": 0.7911666666666667,
+  "precision_default": 0.5265423242467718,
+  "recall_default": 0.5531273549359458,
+  "f1_default": 0.5395075339948548,
+  "macro_f1": 0.7022357154832557,
+  "balanced_accuracy": 0.7059452310737936,
+  "pr_auc": 0.5495822603885099,
+  "decision_threshold": 0.5678298473358154,
+  "training_records": 19200,
+  "validation_records": 4800,
+  "test_records": 6000,
+  "test_class_counts": {
+    "no_default": 4673,
+    "default": 1327
+  },
+  "majority_baseline_accuracy": 0.7788333333333334,
+  "majority_baseline_macro_f1": 0.43783378618945,
+  "limitations": "Research benchmark on Taiwanese credit-card clients; not CryptoPay borrowers or a lending decision tool."
+}

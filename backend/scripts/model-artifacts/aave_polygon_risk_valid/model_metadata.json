@@ -1,0 +1,47 @@
+{
+  "dataset_source": "Polygon Aave V3 filtered event export",
+  "dataset_dir": "c:\\project folder\\W_T_F_1-main\\backend\\scripts\\data\\aave-polygon-v3",
+  "prediction_window_days": 7,
+  "feature_names": [
+    "total_borrowed",
+    "borrow_events",
+    "avg_borrow_amount",
+    "max_borrow_amount",
+    "total_repaid",
+    "repay_events",
+    "avg_repay_amount",
+    "max_repay_amount",
+    "repayment_ratio",
+    "total_supplied",
+    "supply_events",
+    "total_withdrawn",
+    "withdraw_events",
+    "liquidation_events",
+    "liquidation_amount_total",
+    "net_borrowed",
+    "wallet_activity_count"
+  ],
+  "model_type": "logistic_regression",
+  "training_rows": 135,
+  "test_rows": 34,
+  "target_definition": "liquidation_within_future_window",
+  "metrics": {
+    "accuracy": 0.9117647058823529,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "balanced_accuracy": 0.9545454545454546,
+    "roc_auc": 0.9545454545454546,
+    "pr_auc": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        30,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  }
+}

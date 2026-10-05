@@ -1,0 +1,28 @@
+============================================================
+????  Deploying to polygon (Chain ID: 137)
+============================================================
+
+????  Deployer : 0x52b6af09417423ed709c9C11bbbbe967b1a4F561
+????  MATIC bal: 0.0 MATIC
+npx : 
+At line:1 char:1
++ npx hardhat run 
+scripts/deploy-polygon.js 
+--network polygon 2>&1 | 
+Ou ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (:  
+  String) [], RemoteExc   
+ eption
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+???  Insufficient MATIC 
+for gas.
+    Current: 0.0 MATIC
+    Minimum: 0.5 MATIC
+

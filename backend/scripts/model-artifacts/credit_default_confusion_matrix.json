@@ -1,0 +1,11 @@
+{
+  "labels": {
+    "0": "no_default",
+    "1": "default"
+  },
+  "true_no_default_predicted_no_default": 4013,
+  "true_no_default_predicted_default": 660,
+  "true_default_predicted_no_default": 593,
+  "true_default_predicted_default": 734,
+  "test_records": 6000
+}

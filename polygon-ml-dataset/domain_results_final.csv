@@ -1,0 +1,4 @@
+domain,model,threshold,test_samples,actual_failures,TP,TN,FP,FN,accuracy,precision,failure_recall,f1,roc_auc
+AAVE,Random Forest (default),0.6,2000,14,6,1984,2,8,0.995,0.75,0.42857142857142855,0.5454545454545454,0.7708
+USDT,Random Forest (balanced),0.4,1979,9,7,1967,3,2,0.9974734714502274,0.7,0.7777777777777778,0.7368421052631577,0.9416
+USDC,Token Random Forest (Shared),0.5,1965,0,0,1965,0,0,1.0,0.0,0.0,0.0,N/A (Single Class)
